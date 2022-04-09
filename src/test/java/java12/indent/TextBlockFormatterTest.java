@@ -9,7 +9,7 @@ class TextBlockFormatterTest {
 
     @Test
     void formatLinesToCodeBlockIndent() {
-        String text = "Code line 1\nCode line 2\nCode line 3";
+        String text = "Code line 1\nCode line 2\nCode line 3\n";
 
 
         String result = textBlockFormatter.formatLinesToCodeBlockIndent(text);
