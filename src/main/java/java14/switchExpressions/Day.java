@@ -1,4 +1,4 @@
-package java14;
+package java14.switchExpressions;
 
 public enum Day {
 

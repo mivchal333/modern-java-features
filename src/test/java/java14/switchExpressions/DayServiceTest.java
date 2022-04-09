@@ -1,8 +1,9 @@
-package java14;
+package java14.switchExpressions;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class DayServiceTest {
     DayService dayService = new DayService();
