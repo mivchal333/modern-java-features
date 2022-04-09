@@ -1,4 +1,4 @@
-package java12;
+package java12.teeing;
 
 public class Employee {
     private double salary;

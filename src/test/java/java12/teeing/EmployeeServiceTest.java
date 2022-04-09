@@ -1,4 +1,4 @@
-package java12;
+package java12.teeing;
 
 import org.junit.jupiter.api.Test;
 
