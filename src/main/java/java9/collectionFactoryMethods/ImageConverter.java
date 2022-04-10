@@ -1,4 +1,4 @@
-package java9.setOf;
+package java9.collectionFactoryMethods;
 
 import java.util.Set;
 import java.util.TreeSet;

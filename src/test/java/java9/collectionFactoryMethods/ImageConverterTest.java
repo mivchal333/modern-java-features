@@ -1,4 +1,4 @@
-package java9.setOf;
+package java9.collectionFactoryMethods;
 
 import org.junit.jupiter.api.Test;
 
