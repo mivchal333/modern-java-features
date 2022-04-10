@@ -1,4 +1,4 @@
-package java15.sealed;
+package java17.sealed;
 
 public class Human {
 }
