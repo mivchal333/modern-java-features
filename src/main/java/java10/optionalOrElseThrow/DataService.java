@@ -5,8 +5,8 @@ public class DataService {
 
     String getUsername(int id) {
         // implement here
-        // get username from DataProvider. Return value or throw exception if there is no value
-
+        // get username from DataProvider.
+        // Return value or throw exception if there is no value
 
         return "";
     }
