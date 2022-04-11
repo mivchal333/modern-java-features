@@ -1,12 +1,5 @@
 package java17.sealed;
 
-import java17.sealed.Animal;
-import java17.sealed.Dog;
-import java17.sealed.Elephant;
-import java17.sealed.GermanShepherd;
-import java17.sealed.Human;
-import java17.sealed.Mammal;
-import java17.sealed.Reptile;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Modifier;
