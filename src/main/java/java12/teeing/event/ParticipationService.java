@@ -53,6 +53,13 @@ public class ParticipationService {
 
     EventParticipation processEventGuests(List<Guest> guests) {
         // implement here
+        // return EventParticipation with sum of all participants and names of participants, who will attend
+
+        // TIP
+        // collector1: use Collectors.filtering for filtering ony attend guests,
+        // then collect theirs names to list (use Collectors.mapping)
+        // collector2: return sum of all participants
+
 
         return new EventParticipation(Collections.emptyList(), 0);
     }
