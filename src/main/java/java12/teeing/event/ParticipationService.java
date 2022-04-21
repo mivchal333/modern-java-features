@@ -53,7 +53,17 @@ public class ParticipationService {
 
     EventParticipation processEventGuests(List<Guest> guests) {
         // implement here
-
-        return new EventParticipation(Collections.emptyList(), 0);
+        return guests.stream()
+                .collect(Collectors.teeing(
+                        Collectors.filtering(
+                                guest -> guest.isParticipating(),
+                                Collectors.mapping(
+                                        o -> o.getName(),
+                                        Collectors.toList()
+                                )
+                        ),
+                        Collectors.summingInt(guest -> guest.getParticipantsNumber()),
+                        (names, sum) -> new EventParticipation(names, sum)
+                ));
     }
 }
